@@ -1,7 +1,7 @@
 .base {
     display: flex;
     width: 100%;
-    height: 876px;
+    height: 900px;
     margin: 0;
     padding: 0;
     background-color: #736f38;
@@ -14,7 +14,7 @@
     justify-content: center;
     text-align: center;
     position: absolute;
-    left: 0;
+    left: -40px;
     top: 100px;
 
 }
@@ -60,4 +60,8 @@ H1 {
     transition: all 0.25s ease-in-out;
     color: #ffff;
     background-color: #585522;
+}
+
+@media queries {
+
 }
