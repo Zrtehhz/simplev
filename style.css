@@ -6,6 +6,7 @@
     padding: 0;
     background-color: #736f38;
     position: relative;
+    overflow-y: hidden;
 }
 
 .image_base {
@@ -62,6 +63,3 @@ H1 {
     background-color: #585522;
 }
 
-@media queries {
-
-}
