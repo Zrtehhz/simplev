@@ -1,6 +1,7 @@
 .base {
     display: flex;
-    width: 375px;
+    width: 400px;
+    height: 876px;
     margin: 0;
     padding: 0;
     height: 640px;
