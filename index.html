@@ -9,24 +9,28 @@
 </head>
 <body>
     <div class="base">
-        <img class="image_base" src="./assets/penale.png" alt="Logotype">
         <h1>Los Santos</h1>
         <span class="text">Application Code Pénal</span>
-        <button id="popupButton">Ouvrir Le code pénale</button>
-
+        <button id="popupButton">Ouvrir Le code pénal</button>
+    
         <div id="popupContainer">
-          <span id="closeButton">&times;</span>
-          <iframe id="spreadsheetFrame" src="https://docs.google.com/spreadsheets/d/1cTsiT62wHuVR5JQiPhiWyGgGs_aDHQRY9YX2yheAnDE/edit?usp=sharing"></iframe>
+            <span id="closeButton">&times;</span>
+            <div id="tabletFrame">
+                <img id="tabletImage" src="assets\frame.png" alt="Tablet Image">
+                <iframe id="spreadsheetFrame" src="https://docs.google.com/spreadsheets/d/1cTsiT62wHuVR5JQiPhiWyGgGs_aDHQRY9YX2yheAnDE/edit?usp=sharing"></iframe>
+            </div>
         </div>
     </div>
+    
     <script>
-        document.getElementById('popupButton').addEventListener('click', function() {
+document.getElementById('popupButton').addEventListener('click', function() {
   document.getElementById('popupContainer').style.display = 'block';
 });
 
 document.getElementById('closeButton').addEventListener('click', function() {
   document.getElementById('popupContainer').style.display = 'none';
 });
+
 
     </script>
 </body>
